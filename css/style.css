@@ -273,11 +273,8 @@ button:hover {
 @media ( max-width: 480px) {
 
   header {
-    flex-direction: row;
     justify-content: space-between;
     height: auto;
-    margin: 0;
-    width: 100%;
     overflow-x: hidden;
   }
 
@@ -335,8 +332,9 @@ button:hover {
 
   /* ABOUT */
   .about-holder {
-    padding: 20px;
+    margin: 10% 5%;
     flex-direction: column;
+    padding: 0;
   }
 
   .image2-holder {
@@ -344,6 +342,11 @@ button:hover {
   }
   .image2-holder img {
     width: 70%;
+  }
+
+  .aboutinfo-holder {
+    width: 100%;
+    margin: auto;
   }
 
   .aboutinfo-holder h2 {
